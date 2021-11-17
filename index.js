@@ -12,11 +12,10 @@ function solve(a,b,c){
     
     return result + result2;
 }
-
-console.log(solve(1,1,-1));
-
+let solver = solve(1,1,-1)
+res.send(solver)
+})
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
   });
-  
